@@ -1,0 +1,4 @@
+Compile & Run commands:
+  javac -d mods/com.utils com.utils/module-info.java com.utils/com/utils/StringUtil.java
+  javac --module-path mods -d mods/com.greetings com.greetings/module-info.java com.greetings/com/greetings/Main.java
+  java --module-path mods -m com.greetings/com.greetings.Main
